@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0.2%;
+
+}
+.manu,a{
+    background-color: black;
+    color:blue;
+    padding: 1%;
+    text-decoration: none;
+}
+h1{
+    color:aquamarine;
+}
+li,h1,ul{
+    display:inline;
+}
+li{
+    cursor:pointer;
+}
+ul{
+    margin-left: 30%;
+}
+a:hover{
+    color:rgb(234, 15, 114);
+}
+
+input{
+    width:50%;
+    padding:10px;
+    margin :3%;
+}
+.img{
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    width:220px;
+    display:inline-block;
+    margin-top:3%;
+}
+.img:hover{
+    color:rgb(70, 222, 222);
+    background-color:black;
+}
+.about{
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+}
+.contact{
+    text-align: center;
+    background-color: black;
+    color:beige;
+    padding:20px;
+
+}
